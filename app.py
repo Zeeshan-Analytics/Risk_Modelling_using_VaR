@@ -43,7 +43,7 @@ confidence_level = st.sidebar.slider("Confidence Level", 0.90, 0.999, 0.95, step
 num_simulations = st.sidebar.number_input("Number of Monte Carlo Simulations", min_value=1000, max_value=50000, value=10000, step=1000)
 
 # Run Button
-run_analysis = st.sidebar.button("🚀 Run Analysis")
+run_analysis = st.sidebar.button("Run Analysis")
 
 # Footer Info
 st.sidebar.markdown("---")
